@@ -4,7 +4,7 @@ import moment from 'moment';
 import axios from 'axios';
 import Loader from './Loader';
 
-const demoImage = 'https://www.bing.com/th?id=OVFT.mpzuVZnv8dwIMRfQGPbOPC&pid=News';
+const demoImage = '';
 const { Text, Title } = Typography;
 const { Option } = Select;
 
@@ -13,8 +13,8 @@ const News = ({ simplified }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [newsCategory, setNewsCategory] = useState('bitcoin');
 
-  const API_KEY = 'fe223485867e4aaea05c3e08d1acfe53'; 
-  const NEWS_API_URL = 'https://newsapi.org/v2/everything';
+  const API_KEY = ''; 
+  const NEWS_API_URL = '';
 
   useEffect(() => {
     const fetchNews = async () => {
