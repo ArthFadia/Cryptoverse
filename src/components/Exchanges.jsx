@@ -14,7 +14,7 @@ const Exchanges = () => {
   useEffect(() => {
     const fetchExchanges = async () => {
       try {
-        const response = await axios.get('https://api.coingecko.com/api/v3/exchanges');
+        const response = await axios.get('');
         setExchangesList(response.data);
         setIsLoading(false);
       } catch (error) {
